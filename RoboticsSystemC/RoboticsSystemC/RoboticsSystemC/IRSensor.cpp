@@ -6,8 +6,8 @@ IRSensor::IRSensor(Orientation::Direction dir)
 	orientation = dir;	
 }
 
-int IRSensor::get_distance(int pin)
+int IRSensor::get_distance()
 {
-	//gets the distance for the sensor
+	//gets the distance for the sensor	
 	return 0;
 }
