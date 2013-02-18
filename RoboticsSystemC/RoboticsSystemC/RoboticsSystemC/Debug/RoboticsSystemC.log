@@ -1,21 +1,16 @@
-﻿Build started 2/10/2013 4:20:29 PM.
+﻿Build started 2/18/2013 9:35:01 AM.
      1>Project "C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Touching "Debug\RoboticsSystemC.unsuccessfulbuild".
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ULTRASONIC_distance_sensor.cpp
-         ULTRASONIC_distance_sensor.cpp
-     1>c:\users\ben long\desktop\my stuff\systemc\systemc-2.3.0\src\sysc\datatypes\int\sc_nbutils.h(97): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
-         Unknown compiler version - please run the configure tests and report the results
-     1>c:\users\ben long\documents\github\roboticssystemc\roboticssystemc\roboticssystemc\roboticssystemc\ultrasonic_distance_sensor.cpp(16): warning C4407: cast between different pointer to member representations, compiler may generate incorrect code
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt USSensor.cpp
+         USSensor.cpp
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RoboticsSystemC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.lib" /MACHINE:X86 Debug\IR_distance_sensor.obj
-         Debug\main.obj
-         Debug\ULTRASONIC_distance_sensor.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RoboticsSystemC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.lib" /MACHINE:X86 Debug\IRSensor.obj
+         Debug\USSensor.obj
      1>LINK : fatal error LNK1561: entry point must be defined
      1>Done Building Project "C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC.vcxproj" (build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:02.81
+Time Elapsed 00:00:00.55

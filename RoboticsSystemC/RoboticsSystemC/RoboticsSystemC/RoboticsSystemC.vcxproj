@@ -10,6 +10,16 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IRSensor.h" />
+    <ClInclude Include="Orientation.h" />
+    <ClInclude Include="USSensor.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IRSensor.cpp" />
+    <ClCompile Include="USSensor.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C5D4C5AE-BC9D-4316-91FB-443EE5D9EC58}</ProjectGuid>
     <RootNamespace>RoboticsSystemC</RootNamespace>
@@ -61,15 +71,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Compass.cpp" />
-    <ClCompile Include="Gyro.cpp" />
-    <ClCompile Include="IR_distance_sensor.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Person.cpp" />
-    <ClCompile Include="ULTRASONIC_distance_sensor.cpp" />
-    <ClCompile Include="World.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
