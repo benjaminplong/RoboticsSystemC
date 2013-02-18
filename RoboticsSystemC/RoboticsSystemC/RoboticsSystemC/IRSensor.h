@@ -7,7 +7,7 @@ class IRSensor
 public:
 	IRSensor(Orientation::Direction dir);
 
-	int get_distance();
+	int get_distance(int pin);
 
 private:
 	Orientation::Direction orientation;
