@@ -2,12 +2,10 @@
 
 USSensor::USSensor(Orientation::Direction dir)
 {
-	orientation = dir;
-	pin = 0;
+	orientation = dir;	
 }
 
-int USSensor::get_distance(int pin)
-{
-	pinMode(pin,INPUT);
-	return(analogRead(pin));
+int USSensor::get_distance()
+{	
+	return 0;
 }
