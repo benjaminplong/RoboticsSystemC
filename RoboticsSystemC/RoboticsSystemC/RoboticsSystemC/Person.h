@@ -13,4 +13,5 @@ private:
 	int location;
 	int theta;
 	Orientation::Direction orientation;
+	int *pastLocations;
 };

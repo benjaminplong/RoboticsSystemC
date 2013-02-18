@@ -11,14 +11,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Compass.h" />
     <ClInclude Include="IRSensor.h" />
     <ClInclude Include="Orientation.h" />
+    <ClInclude Include="Person.h" />
     <ClInclude Include="USSensor.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IRSensor.cpp" />
     <ClCompile Include="USSensor.cpp" />
+    <ClCompile Include="World.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C5D4C5AE-BC9D-4316-91FB-443EE5D9EC58}</ProjectGuid>
