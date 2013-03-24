@@ -1,17 +1,29 @@
-﻿Build started 2/18/2013 11:08:10 AM.
+﻿Build started 3/24/2013 2:49:36 PM.
      1>Project "C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Touching "Debug\RoboticsSystemC.unsuccessfulbuild".
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt World.cpp
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_DEPRECATE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt IRSensor.cpp main.cpp USSensor.cpp World.cpp /vmg 
          World.cpp
+         USSensor.cpp
+         main.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         IRSensor.cpp
+         Generating Code...
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RoboticsSystemC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.lib" /MACHINE:X86 Debug\IRSensor.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.exe" /NOLOGO /LIBPATH:"C:\Users\Ben Long\Desktop\My stuff\SystemC\systemc-2.3.0\msvc80\SystemC\Debug" /WX systemc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RoboticsSystemC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.lib" /MACHINE:X86 Debug\IRSensor.obj
+         Debug\main.obj
          Debug\USSensor.obj
          Debug\World.obj
-     1>LINK : fatal error LNK1561: entry point must be defined
-     1>Done Building Project "C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC.vcxproj" (build target(s)) -- FAILED.
+         RoboticsSystemC.vcxproj -> C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\Debug\RoboticsSystemC.exe;#1" /manifest Debug\RoboticsSystemC.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\RoboticsSystemC.unsuccessfulbuild".
+         Touching "Debug\RoboticsSystemC.lastbuildstate".
+     1>Done Building Project "C:\Users\Ben Long\Documents\GitHub\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC\RoboticsSystemC.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.43
+Time Elapsed 00:00:02.80
